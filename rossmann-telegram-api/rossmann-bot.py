@@ -20,6 +20,8 @@ TOKEN = '5710578106:AAG1qT3yQ0m9D4RIsC4eOXu017LH1z4xrZg'
 # set web Heroku
 # https://api.telegram.org/bot5710578106:AAG1qT3yQ0m9D4RIsC4eOXu017LH1z4xrZg/setWebhook?url=https://rossmann-thiago-bot.herokuapp.com/
 
+# set web RENDER
+# https://api.telegram.org/bot5710578106:AAG1qT3yQ0m9D4RIsC4eOXu017LH1z4xrZg/setWebhook?url=https://ds-prod-deploy-test.onrender.com
 
 # send message
 # https://api.telegram.org/bot5710578106:AAG1qT3yQ0m9D4RIsC4eOXu017LH1z4xrZg/sendMessage?chat_id=1191302974&text=Hi, Thiago. I am up and running and eager to start working!
@@ -63,7 +65,7 @@ def load_dataset( store_id ):
 def predict( data ):
 
     # API Call
-    url = 'https://rossmann-app-test.herokuapp.com/rossmann/predict'
+    url = 'https://ds-prod-deploy-test.onrender.com/rossmann/predict'
     header = {'Content-type': 'application/json' } 
     data = data
 
