@@ -27,7 +27,7 @@ Rossmann’s CFO needs to know what are the sales prospects for the next six wee
 
 **2. Planning the solution**  
 
-To address the CFO’s requirements, there are few seps that need to be accomplished by the data scientist which include:
+To address the CFO’s requirements, there are a few steps that need to be accomplished by the data scientist which include:
   * Establishing the problem to be solved;  
   * Understanding the business and mapping the assumptions;  
   * Collecting, processing and analysing the data;  
