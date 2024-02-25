@@ -1,0 +1,14 @@
+split: 
+ seed: 42
+ test_size: 0.2
+
+data:
+ raw_path: ../data/raw/raw_data.csv
+ trusted_path: ../data/df1_no_nas.csv
+ train_path: ../data/train.csv
+ test_path: ../data/test.csv
+ store_path: ../data/store.csv
+ trusted2_path: ../data/trusted.csv
+
+image:
+ path: ../images/mind_map.png
