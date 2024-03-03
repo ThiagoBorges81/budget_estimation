@@ -9,6 +9,7 @@ data:
  test_path: ../data/test.csv
  store_path: ../data/store.csv
  trusted2_path: ../data/trusted.csv
+ val_path: ../data/x_val_nonas.csv
 
 image:
  path: ../images/mind_map.png
